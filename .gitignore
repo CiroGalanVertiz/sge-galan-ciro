@@ -1,18 +1,45 @@
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
+# Configuración real y secretos 
 
-# Android Studio
-.idea/
-*.iml
+*.conf 
 
-# Local configuration
-local.properties
+!*.conf.example 
 
-# Build outputs
-**/build/
+.env 
 
-# OS
-.DS_Store
-Thumbs.db
+  
+
+# Copias de seguridad y logs 
+
+*.zip 
+
+*.dump 
+
+*.sql 
+
+*.tar.gz 
+
+*.log 
+
+  
+
+# Entornos de Python 
+
+venv/ 
+
+__pycache__/ 
+
+  
+
+# Documentos de Office (se suben en PDF) 
+
+*.docx 
+
+*.pptx 
+
+  
+
+# Sistema operativo 
+
+Thumbs.db 
+
+.DS_Store 
